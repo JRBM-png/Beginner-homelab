@@ -1,7 +1,7 @@
 # Beginner-homelab
-This repository it describes how I was able to set up a homelab in virtual box and observed packets over a network.
+This repository it describes how I was able to set up a homelab in virtual box and observed packets over a network
 ## Objective 
-The main objective of this lab was to learn virtual machine fundamentals and to simulate a basic attack whilst observing the attack through wireshark. 
+The main objective of this lab was to learn virtual machine fundamentals and to simulate a basic attack whilst observing the attack through wireshark
 ## Skills learnt
 - Virtual machines
 - Wireshark
@@ -11,7 +11,7 @@ The main objective of this lab was to learn virtual machine fundamentals and to 
 - Virtual box
 ## Steps
 ### Step 1: Set up the iso's
-The first step was to set up the kali and ubuntu iso in virtual box. During this process I had to allocate the resources to each machine such as the memory and the amount of processors. 
+The first step was to set up the kali and ubuntu iso in virtual box. During this process I had to allocate the resources to each machine such as the memory and the amount of processors 
 
 <img width="510" height="541" alt="ss of vm home" src="https://github.com/user-attachments/assets/a2bda379-ddd5-4791-a86f-57d3f37fd882" />
 
@@ -19,7 +19,7 @@ Here is a screenshot showing the main page of virtual box with kali and ubuntu
 
 <img width="571" height="412" alt="ss of ubuntu memory" src="https://github.com/user-attachments/assets/81b024ca-126a-4d3c-a56f-aa71c9ffcb30" />
 
-Here is the ubuntu memory with 4gb allocated, I allocated more ram to ubuntu than kali as ubuntu will be running wireshark whilst kali will just be using the terminal. Allocating more ram ensures everything runs without delay.
+Here is the ubuntu memory with 4gb allocated, I allocated more ram to ubuntu than kali as ubuntu will be running wireshark whilst kali will just be using the terminal. Allocating more ram ensures everything runs without delay
 
 <img width="571" height="412" alt="ss of ubuntu processor" src="https://github.com/user-attachments/assets/c1bbe4ce-2749-4168-89b0-616e8027902f" />
 
@@ -62,11 +62,11 @@ After that I had to set up the network, by setting up the network it allows the 
 
 <img width="571" height="412" alt="setting up nat network" src="https://github.com/user-attachments/assets/d1c36ed8-92f4-46ed-9293-105b91eca216" />
 
-Here I am setting up the nat network, this would be the router normally
+Here I am setting up the nat network, this would be the router normally by doing this it allows the two vms to communuicate with eachother
 
 <img width="571" height="412" alt="connecting ubuntu to nat network" src="https://github.com/user-attachments/assets/a749afa1-d8bb-4a71-9d8c-2c76e40aff0a" />
 
-After setting up the nat network I connected ubuntu to it by selecting it as the network adapter instead of the default option
+After setting up the nat network I connected ubuntu to it by selecting it as the network adapter instead of the default option this ensures they are on the same network
 
 <img width="571" height="412" alt="connecting kali to nat network" src="https://github.com/user-attachments/assets/f4fe955a-34c1-481d-9ce6-fc612ba641fb" />
 
