@@ -44,6 +44,19 @@ For ubuntu the set up was straight forward and easy
 
 For kali I didnt have to go through the set up as I downloaded a pre installed iso
 
+### Step 3:
+
+Then I created snapshots for ubuntu and kali. Snapshots have great significance as it allows you to reverse the image of the os. This allows you to experiment freely, break things and aim to fix them with no consequences for mistakes.
+
+<img width="896" height="748" alt="ubuntu snapshot" src="https://github.com/user-attachments/assets/cde788c4-adee-4b77-9a3e-f0fd87dfb7fb" />
+
+Snapshot of ubuntu
+
+<img width="891" height="744" alt="kali snapshot" src="https://github.com/user-attachments/assets/68d5d472-df82-4858-9035-84af8f8c47f2" />
+
+Snapchat of kali
+
+
 
 
 
