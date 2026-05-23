@@ -58,11 +58,19 @@ Snapshot of kali
 
 ### Step 4: Setting up the network
 
+After that I had to set up the network, by setting up the network it allows the two virtual machines to be able to connect with eachother 
 
+<img width="571" height="412" alt="setting up nat network" src="https://github.com/user-attachments/assets/d1c36ed8-92f4-46ed-9293-105b91eca216" />
 
+Here I am setting up the nat network, this would be the router normally
 
+<img width="571" height="412" alt="connecting ubuntu to nat network" src="https://github.com/user-attachments/assets/a749afa1-d8bb-4a71-9d8c-2c76e40aff0a" />
 
+After setting up the nat network I connected ubuntu to it by selecting it as the network adapter instead of the default option
 
+<img width="571" height="412" alt="connecting kali to nat network" src="https://github.com/user-attachments/assets/f4fe955a-34c1-481d-9ce6-fc612ba641fb" />
+
+I then did the same thing for kali 
 
 
 
