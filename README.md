@@ -98,7 +98,9 @@ After clicking the capture button this interface comes up, the enp0s3 shows what
 
 ### Step 7: Before the attack
 
-This screenshot shows how the packets look like before I attack the system
+<img width="571" height="412" alt="Screenshot 2026-05-23 203248" src="https://github.com/user-attachments/assets/05b3f565-68c5-4644-bf51-c81aebac5556" />
+
+This screenshot shows how the packets look like before I attack the system we can see theres a normal baseline, this is important to see as it gives us something to compare agaisnt making malicious activity easier to identify.
 
 ### Step 8: Simulating kali attack
 
