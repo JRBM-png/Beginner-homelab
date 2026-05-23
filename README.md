@@ -74,13 +74,17 @@ I then did the same thing for kali
 
 ### Step 5: Installing wireshark and setting up firewall
 
+I then installed wireshark and installed the firewall which set up the ability to monitor the traffic
+
 <img width="571" height="412" alt="ubuntu installing wireshark" src="https://github.com/user-attachments/assets/75b7b108-1a86-4c5c-9bf3-99f5653321d2" />
 
 Through using the linux command terminal I installed wireshark through the "sudo apt install wireshark" command
 
 <img width="571" height="412" alt="ubuntu installing ufw" src="https://github.com/user-attachments/assets/682249a2-94a3-4d19-b8f5-eb9294914bf2" />
 
+After that I set up the firewall which allows it to filter and monitor traffic, this can also be used to restrict certain ip addresses from accessing the network. I aksi allowed ssh which allows it to accept remote connections. As seen there was an issue as I did not correctly type the correct line however this was corrected after.
 
+### Step 6: Capturing network traffic
 
 
 
