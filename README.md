@@ -36,6 +36,15 @@ Same as ubuntu with 2 allocated
 ### Step 2:
 The next step was to install the distributions
 
+<img width="571" height="412" alt="ubuntu set up" src="https://github.com/user-attachments/assets/d318db7e-da32-47f8-a248-8059fe10331f" />
+
+For ubuntu the set up was straight forward and easy
+
+<img width="571" height="412" alt="kali set up" src="https://github.com/user-attachments/assets/bd42c9d2-23fc-4a95-abeb-e43af73d6671" />
+
+For kali I didnt have to go through the set up as I downloaded a pre installed iso
+
+
 
 
 
