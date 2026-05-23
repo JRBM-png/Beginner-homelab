@@ -6,6 +6,7 @@ The main objective of this lab was to learn virtual machine fundamentals and to 
 - Virtual machines
 - Wireshark
 - Linux command line (Used terminal commands such as sudo, apt install etc)
+- Network diagram
 ## Tools used
 - Virtual box
 
