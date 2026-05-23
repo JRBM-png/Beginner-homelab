@@ -9,4 +9,7 @@ The main objective of this lab was to learn virtual machine fundamentals and to 
 - Network diagram
 ## Tools used
 - Virtual box
+## Steps
+### Step 1:
+
 
