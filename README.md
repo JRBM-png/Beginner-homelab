@@ -94,7 +94,7 @@ This shows the main interface with the caputre button in the top left hand corne
 
 <img width="571" height="412" alt="capturing network traffic" src="https://github.com/user-attachments/assets/130efe9a-5f18-4f2a-a21e-1abd1f9c126c" />
 
-After clicking the capture button this interface comes up
+After clicking the capture button this interface comes up, the enp0s3 shows what connects the ubuntu vm to the kali vm and shows traffic via the upwards pattern. 
 
 ### Step 7: Before the attack
 
@@ -104,13 +104,13 @@ This screenshot shows how the packets look like before I attack the system
 
 <img width="571" height="412" alt="simulating attack kali" src="https://github.com/user-attachments/assets/1a14e8dd-18e4-41e7-8e69-bcb6dc953d43" />
 
-By using the nmap -A function and the target ip address it scans for ports that are opened 
+By using the nmap -A function an aggressive scan was run against the tartget machine. This scan revealed that all of the 1000 scanned ports were either ignored or closed so there was no entry points. It also identfied the MAC address which confirmed it is a virtual bo machine.
 
 ### Step 9: Capturing the attack
 
 <img width="571" height="412" alt="Seeing the packets" src="https://github.com/user-attachments/assets/277ae14e-877a-41e9-97b8-164cfa171c65" />
 
-This finial screenshot shows the packets, we can see the source as the kali machine and the destination being the ubuntu machine which is what wireshark is installed on.
+While the nmap scan was running, wireshark was running on ubuntu and captured all the network traffic. By seeing the packets we can see the source 10.0.2.3 being kali the attacker and ubuntu 10.0.2.15 being the target. We can see the highlighted red which shows the port scans and where ubuntun resets the connections on the ports that kali probed. 
 
 ### Network diagram
 
