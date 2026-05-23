@@ -84,7 +84,46 @@ Through using the linux command terminal I installed wireshark through the "sudo
 
 After that I set up the firewall which allows it to filter and monitor traffic, this can also be used to restrict certain ip addresses from accessing the network. I aksi allowed ssh which allows it to accept remote connections. As seen there was an issue as I did not correctly type the correct line however this was corrected after.
 
-### Step 6: Capturing network traffic
+### Step 6: Wireshark interface
+
+After setting up wireshark I became familar with the interface
+
+<img width="571" height="412" alt="Wireshark opened" src="https://github.com/user-attachments/assets/462b135e-39ca-4957-a7fa-31715ed804e4" />
+
+This shows the main interface with the caputre button in the top left hand corner
+
+<img width="571" height="412" alt="capturing network traffic" src="https://github.com/user-attachments/assets/130efe9a-5f18-4f2a-a21e-1abd1f9c126c" />
+
+After clicking the capture button this interface comes up
+
+### Step 7: Before the attack
+
+This screenshot shows how the packets look like before I attack the system
+
+### Step 8: Simulating kali attack
+
+<img width="571" height="412" alt="simulating attack kali" src="https://github.com/user-attachments/assets/1a14e8dd-18e4-41e7-8e69-bcb6dc953d43" />
+
+By using the nmap -A function and the target ip address it scans for ports that are opened 
+
+### Step 9: Capturing the attack
+
+<img width="571" height="412" alt="Seeing the packets" src="https://github.com/user-attachments/assets/277ae14e-877a-41e9-97b8-164cfa171c65" />
+
+This finial screenshot shows the packets, we can see the source as the kali machine and the destination being the ubuntu machine which is what wireshark is installed on.
+
+### Network diagram
+
+<img width="402" height="346" alt="network diagram ss" src="https://github.com/user-attachments/assets/e97b9bc7-b014-46e9-a7b2-13118b237c80" />
+
+This network diagram shows the full set up, you can the router as the nat network connected to the two virtual machines. At the bottom is the Nmap scan showing the attack conneccting them.
+
+
+
+
+
+
+
 
 
 
