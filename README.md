@@ -72,6 +72,18 @@ After setting up the nat network I connected ubuntu to it by selecting it as the
 
 I then did the same thing for kali 
 
+### Step 5: Installing wireshark and setting up firewall
+
+<img width="571" height="412" alt="ubuntu installing wireshark" src="https://github.com/user-attachments/assets/75b7b108-1a86-4c5c-9bf3-99f5653321d2" />
+
+Through using the linux command terminal I installed wireshark through the "sudo apt install wireshark" command
+
+<img width="571" height="412" alt="ubuntu installing ufw" src="https://github.com/user-attachments/assets/682249a2-94a3-4d19-b8f5-eb9294914bf2" />
+
+
+
+
+
 
 
 
