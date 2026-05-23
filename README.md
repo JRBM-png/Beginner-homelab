@@ -19,7 +19,7 @@ Here is a screenshot showing the main page of virtual box with kali and ubuntu
 
 <img width="571" height="412" alt="ss of ubuntu memory" src="https://github.com/user-attachments/assets/81b024ca-126a-4d3c-a56f-aa71c9ffcb30" />
 
-Here is the ubuntu memory with 4gb allocated
+Here is the ubuntu memory with 4gb allocated, I allocated more ram to ubuntu than kali as ubuntu will be running wireshark whilst kali will just be using the terminal. Allocating more ram ensures everything runs without delay.
 
 <img width="571" height="412" alt="ss of ubuntu processor" src="https://github.com/user-attachments/assets/c1bbe4ce-2749-4168-89b0-616e8027902f" />
 
