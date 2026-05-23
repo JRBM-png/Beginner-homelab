@@ -10,7 +10,7 @@ The main objective of this lab was to learn virtual machine fundamentals and to 
 ## Tools used
 - Virtual box
 ## Steps
-### Step 1:
+### Step 1: Set up the iso's
 The first step was to set up the kali and ubuntu iso in virtual box. During this process I had to allocate the resources to each machine such as the memory and the amount of processors. 
 
 <img width="510" height="541" alt="ss of vm home" src="https://github.com/user-attachments/assets/a2bda379-ddd5-4791-a86f-57d3f37fd882" />
@@ -33,7 +33,7 @@ Same thing for kali except there is 2gb of memory allocated instead of ubuntu 4g
 
 Same as ubuntu with 2 allocated
 
-### Step 2:
+### Step 2: Install the iso's
 The next step was to install the distributions
 
 <img width="571" height="412" alt="ubuntu set up" src="https://github.com/user-attachments/assets/d318db7e-da32-47f8-a248-8059fe10331f" />
@@ -44,7 +44,7 @@ For ubuntu the set up was straight forward and easy
 
 For kali I didnt have to go through the set up as I downloaded a pre installed iso
 
-### Step 3:
+### Step 3: Snapshots
 
 Then I had to create snapshots of ubuntu and kali. Snapshots are important as they allow you to revert the os to a previous state. This allows you to experiment, break and repair things, without consequences
 
@@ -55,6 +55,9 @@ Snapshot of ubuntu
 <img width="510" height="500" alt="kali snapshot" src="https://github.com/user-attachments/assets/f17c02fb-1673-41ed-a9d0-02ec81a92a5b" />
 
 Snapshot of kali
+
+### Step 4: Setting up the network
+
 
 
 
