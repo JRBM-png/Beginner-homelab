@@ -120,6 +120,10 @@ While the nmap scan was running, wireshark was running on ubuntu and captured al
 
 This network diagram shows the full set up, you can the router as the nat network connected to the two virtual machines. At the bottom is the Nmap scan showing the attack conneccting them.
 
+### Credits
+https://www.youtube.com/watch?v=ZpFticDPEkw&t=3s
+
+
 
 
 
