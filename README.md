@@ -1,5 +1,5 @@
 # Beginner-homelab
-This repository it describes how I was able to set up a homelab in virtual box and observed packets over a network
+This repository it describes how I was able to set up a homelab using virtual machines, configured and optimised them to allow me to observe packets over a network.
 ## Objective 
 The main objective of this lab was to learn virtual machine fundamentals and to simulate a basic attack whilst observing the attack through wireshark
 ## Skills learnt
